@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import Navigation from './Navigation';
+import Meta from './Meta';
 
 const Page = ({ children }) => (
   <div>
-    <p>Hey, I'm the page component</p>
+    <Meta />
+    <Navigation />
     {children}
   </div>
 );
